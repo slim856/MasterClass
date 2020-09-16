@@ -1,0 +1,290 @@
+html,body{
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto';
+}
+.my-nav{
+  background-color: black;
+  padding: 20px 200px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.browse{
+  font-size: 14px;
+  font-weight: bold;
+}
+.login{
+  font-size: 14px;
+  font-weight: bold;
+}
+.my-dropdown{
+  width: 350px;
+  background-color:#191c21;
+}
+.my-btn{
+  padding: 7px 15px;
+  text-decoration: none;
+}
+.my-btn:hover{
+  text-decoration: none;
+  background-color: #303237;
+}
+.my-dropdown-link{
+  color: #f3f3f5;
+  text-decoration: none;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.fa-angle-right{
+  color: #f3f3f5;
+}
+.my-form{
+  background-color: #191c21;
+  color: white;
+  border: none;
+}
+.my-form:focus{
+  background-color: #191c21;
+  color: white;
+  border: none;
+}
+.my-option{
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+.my-icon{
+  text-align: right;
+}
+.row-1{
+  width: 100%;
+  margin: 0;
+  align-items: flex-end;
+}
+.left-grid h1{
+  font-family: 'Bebas Neue';
+  font-size: 100px;
+  color: white;
+  line-height: .9em;
+}
+.left-grid h6{
+  color: white;
+  font-size: 20px;
+}
+.my-button{
+  padding: 15px 25px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.left-grid p{
+  padding-left: 20px;
+  color: #a3a4a8;
+  font-size: 15px;
+}
+.left-grid p a{
+  color: #a3a4a8;
+  text-decoration: underline;
+}
+svg:hover{
+  fill: grey;
+}
+.img{
+  position: relative;
+  width: 100%;
+}
+.grid-img{
+  width: 189px;
+  border-radius: 4px;
+}
+.text-container{
+    position: absolute;
+    top: 25%;
+    right: 35%;
+    background-color: #333333;
+    width: 30%;
+    border-radius: 6px;
+    padding: 40px;
+    align-content: center;
+    box-shadow: 0 0 40px #000;
+}
+.text-container h4{
+    font-family: Arial;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.text-container p{
+    font-family: Arial;
+    color: #a3a4a8;
+    font-size: 20px;
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+.strg{
+  color: white;
+}
+.item-grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+}
+.tag{
+  text-align: center;
+}
+.fa-tag{
+  color: white;
+}
+hr{
+  border: 1px solid #a3a4a8;
+  margin: 0;
+}
+.try{
+  background-color: #191c21;
+  text-align: center;
+  padding: 40px;
+}
+.try h3{
+  color: white;
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.name{
+  color: #93979a;
+  line-height: 2em;
+  padding: 20px 100px;
+  margin: 40px 100px;
+}
+.name span{
+  padding: 0 6px;
+  font-size: 16px;
+}
+.name strong{
+  font-size: 30px;
+}
+.name a{
+  color: #93979a;
+  padding: 0 6px;
+  font-size: 16px;
+}
+.name-title a{
+  font-size: 22px;
+}
+.name a:hover{
+  color: white;
+  text-decoration: none;
+}
+.name-title a:hover{
+  color: white;
+  border-bottom: solid 3px #dc3545;
+}
+.row-2{
+  width: 100%;
+  align-items: center;
+}
+.platform{
+  background-color: #191c21;
+  padding: 60px 0;
+}
+.platform-link{
+  margin-left: 100px;
+  padding-left: 100px;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+.platform-link p{
+  color: white;
+  line-height: 1.4em;
+  padding: 15px 0;
+  margin: 0;
+}
+.platform-link h2{
+  color: white;
+  padding: 20px 0;
+}
+button.modal-close{
+  padding: 15px 20px;
+  font-weight: normal;
+  text-align: right;
+}
+.content{
+  text-align: center;
+  padding: 20px 70px;
+  padding-top: 0;
+  font-style: 'Roboto'
+}
+.content button{
+  border-radius: 5px;
+  border: none;
+}
+.signin-google{
+  padding: 10px 86px;
+  background-color: #4285f4;
+  margin-bottom: 35px;
+}
+.signin-fb{
+  padding: 10px 80px;
+  background-color: #3c5a99;
+}
+.signin-email{
+  padding: 10px 90px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.content h3{
+  margin: 0;
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+.content p{
+  margin: 0;
+  padding: 0;
+}
+.modal-p{
+  padding-bottom: 25px;
+  font-size: 17px;
+  font-weight: 500;
+}
+.item-grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+}
+.divider{
+  padding: 15px 0;
+}
+.divider p{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.email-login{
+  text-align: left;
+}
+.email-login p{
+  color: black;
+}
+.email-login a{
+  color: black !important;
+}
+.email-login-end{
+  text-align: center;
+}
+.email-input{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+.label-txt{
+  padding-left: 5px;
+}
+.close-modal:hover{
+  color: black;
+  border: none;
+}
+.modal-close:enabled{
+  border: none;
+}
