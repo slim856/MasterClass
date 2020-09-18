@@ -220,16 +220,36 @@ button.modal-close{
   border: none;
 }
 .signin-google{
-  padding: 10px 86px;
+  padding: 15px;
   background-color: #4285f4;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  width: 100%;
   margin-bottom: 35px;
 }
+.fa-google{
+  margin-right: 5px;
+  font-size: 17px;
+}
 .signin-fb{
-  padding: 10px 80px;
+  padding: 15px;
   background-color: #3c5a99;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  width: 100%;
+}
+.fa-facebook-f{
+  margin-right: 5px;
+  font-size: 17px;
 }
 .signin-email{
-  padding: 10px 90px;
+  padding: 15px;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  width: 100%;
   margin-top: 20px;
   margin-bottom: 50px;
 }
@@ -287,4 +307,27 @@ button.modal-close{
 }
 .modal-close:enabled{
   border: none;
+}
+
+
+footer ul,a{
+  list-style: none;
+  color: white;
+}
+footer a:hover{
+  color: white;
+}
+.row-3{
+  margin: 0;
+  padding: 0 140px;
+}
+footer li{
+  line-height: 2.5rem;
+  font-size: 15px;
+}
+footer h3{
+  line-height: 3rem;
+  color: #595959;
+  font-size: 16px;
+  font-weight: 700;
 }
