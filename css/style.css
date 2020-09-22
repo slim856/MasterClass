@@ -310,7 +310,11 @@ button.modal-close{
 }
 
 
-footer ul,a{
+footer ul{
+  list-style: none;
+  color: white;
+}
+footer a{
   list-style: none;
   color: white;
 }
@@ -330,4 +334,13 @@ footer h3{
   color: #595959;
   font-size: 16px;
   font-weight: 700;
+}
+footer img{
+  padding: 10px 0;
+}
+.slide-image{
+  width: 75%;
+}
+.carouselContainer{
+  padding: 70px 0;
 }
