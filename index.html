@@ -441,8 +441,8 @@
 
       <!-- Carousel -->
       <div class="carouselContainer">
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
+        <div id="carouselExampleCaptions" class="carousel slide" data-interval="false">
+          <ol class="carousel-indicators carouselIndicators">
             <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
@@ -452,42 +452,47 @@
           <div class="carousel-inner">
             <div class="carousel-item active slide-item">
               <img src="img\slide-img\slide1.jpg" class="d-block mx-auto slide-image" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                <button type="button" name="button">DETAILS</button>
+              <div class="carousel-caption d-none d-md-block carousel-text text-left carouselCaption">
+                <h6>Featured Instructor</h6>
+                <h3>Gordon Ramsay</h3>
+                <p>Teaches Cooking I</p>
+                <button type="button" class="detail-btn">DETAILS</button>
               </div>
             </div>
             <div class="carousel-item slide-item">
               <img src="img\slide-img\slide2.jpg" class="d-block mx-auto slide-image" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button type="button" name="button">DETAILS</button>
+              <div class="carousel-caption d-none d-md-block carousel-text text-left carouselCaption">
+                <h6>Featured Instructor</h6>
+                <h3>Margaret Atwood</h3>
+                <p>Teaches Creative Writing</p>
+                <button type="button" class="detail-btn">DETAILS</button>
               </div>
             </div>
             <div class="carousel-item slide-item">
               <img src="img\slide-img\slide3.jpg" class="d-block mx-auto slide-image" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
+              <div class="carousel-caption d-none d-md-block carousel-text text-left carouselCaption">
+                <h6>Featured Instructor</h6>
+                <h3>Third slide label</h3>
                 <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                <button type="button" name="button">DETAILS</button>
+                <button type="button" class="detail-btn">DETAILS</button>
               </div>
             </div>
             <div class="carousel-item slide-item">
               <img src="img\slide-img\slide4.jpg" class="d-block mx-auto slide-image" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Fourth slide label</h5>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                <button type="button" name="button">DETAILS</button>
+              <div class="carousel-caption d-none d-md-block carousel-text text-left carouselCaption">
+                <h6>Featured Instructor</h6>
+                <h3>Fourth slide label</h3>
+                <p>Teaches Ukelele</p>
+                <button type="button" class="detail-btn">DETAILS</button>
               </div>
             </div>
             <div class="carousel-item slide-item">
               <img src="img\slide-img\slide5.jpg" class="d-block mx-auto slide-image" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Fifth slide label</h5>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                <button type="button" name="button">DETAILS</button>
+              <div class="carousel-caption d-none d-md-block carousel-text text-left carouselCaption">
+                <h6>Featured Instructor</h6>
+                <h3>Brandon McMillan</h3>
+                <p>Teaches Dog Training</p>
+                <button type="button" class="detail-btn">DETAILS</button>
               </div>
             </div>
           </div>
@@ -503,10 +508,185 @@
       </div>
       <!-- Carousel End -->
 
+      <div class="container cont">
+        <div class="row">
+          <div class="col">
+            <div class="description py-4">
+              <h4>85+ Classes</h4>
+              <p>From the masters</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="description py-4">
+              <h4>20 Lessons</h4>
+              <p>Average per class</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="description py-4">
+              <h4>10 Minutes</h4>
+              <p>Average per lesson</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="drpdwns my-5 py-5">
+        <h3>Frequently asked questions</h3>
+        <div class="accordion" id="accordionExample">
+          <h6>General</h6>
+          <div class="card slim my-3">
+            <div class="card-header card-1" id="headingOne">
+              <h2 class="mb-0">
+                <a href="#collapseOne" class="btn btn-block drpdwns-btn my-option" type="button" data-toggle="collapse" aria-expanded="false" aria-controls="collapseOne">
+                  <div class="d-inline text-left"><p class="m-0">What is MasterClass?</p></div>
+                  <div class="d-inline text-right"><i class="fa fa-angle-down"></i></div>
+                </a>
+              </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body body-1">
+                MasterClass is the streaming platform that makes it possible for anyone to watch or listen to hundreds of
+                video lessons taught by 85+ of the world’s best.
+                <br>
+                <br>
+                Whether it be in business and leadership, photography, cooking, writing, acting, music, sports and more, MasterClass
+                delivers a world class online learning experience. Video lessons are available anytime, anywhere on your smartphone,
+                personal computer, Apple TV and FireTV streaming media players.
+              </div>
+            </div>
+          </div>
+
+          <div class="card slim my-3">
+            <div class="card-header card-1" id="headingTwo">
+              <h2 class="mb-0">
+                <a href="#collapseTwo" class="btn btn-block drpdwns-btn my-option" type="button" data-toggle="collapse" aria-expanded="false" aria-controls="collapseOne">
+                  <div class="d-inline text-left"><p class="m-0">What is included in a MasterClass membership?</p></div>
+                  <div class="d-inline text-right"><i class="fa fa-angle-down"></i></div>
+                </a>
+              </h2>
+            </div>
+
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body body-1">
+                Membership includes access to an incredible catalog of 85+ classes taught by the world’s best on cooking, leadership,
+                photography, writing and more.
+                <br>
+                <br>
+                Each class includes around 20 video lessons that are 10 minutes long on average, along with an in-depth workbook.
+                You also get access to our smartphone and TV apps, offline lessons, our member’s only newsletter, and our dynamic community
+                of members around the world.
+              </div>
+            </div>
+          </div>
+
+          <div class="card slim my-3">
+            <div class="card-header card-1" id="headingThree">
+              <h2 class="mb-0">
+                <a href="#collapseThree" class="btn btn-block drpdwns-btn my-option" type="button" data-toggle="collapse" aria-expanded="false" aria-controls="collapseOne">
+                  <div class="d-inline text-left"><p class="m-0">Where can I watch?</p></div>
+                  <div class="d-inline text-right"><i class="fa fa-angle-down"></i></div>
+                </a>
+              </h2>
+            </div>
+
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body body-1">
+                With MasterClass, you can learn and be inspired anytime, anywhere, including your smartphone, personal computer,
+                Apple TV, Amazon Fire TV, and Roku streaming media players. You can even download your favorite lessons and watch on
+                the plane or listen during your commute in audio-only mode.*
+                <br>
+                <br>
+                <span>*Downloads only on iOS and not available for all classes. Audio mode is not available for all classes.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card slim my-3">
+            <div class="card-header card-1" id="headingFour">
+              <h2 class="mb-0">
+                <a href="#collapseFour" class="btn btn-block drpdwns-btn my-option" type="button" data-toggle="collapse" aria-expanded="false" aria-controls="collapseOne">
+                  <div class="d-inline text-left"><p class="m-0">Which classes are right for me?</p></div>
+                  <div class="d-inline text-right"><i class="fa fa-angle-down"></i></div>
+                </a>
+              </h2>
+            </div>
+
+            <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body body-1">
+                MasterClass offers 85+ classes across a variety of categories, including business and leadership, photography, cooking, writing, acting, music, sports and more. Every class has been designed to be accessible for people with little to no experience and advanced students alike. With new classes launching regulary, you can learn practical skills, ignite new passions, and get everyday wisdom.
+                <br>
+                <br>
+                Check out our <a href="">catalog</a> and watch a few class trailers!
+              </div>
+            </div>
+          </div>
+
+          <h6 class="mt-5">Pricing and Payments</h6>
+
+          <div class="card slim my-3">
+            <div class="card-header card-1" id="headingFive">
+              <h2 class="mb-0">
+                <a href="#collapseFive" class="btn btn-block drpdwns-btn my-option" type="button" data-toggle="collapse" aria-expanded="false" aria-controls="collapseOne">
+                  <div class="d-inline text-left"><p class="m-0">How much does MasterClass cost?</p></div>
+                  <div class="d-inline text-right"><i class="fa fa-angle-down"></i></div>
+                </a>
+              </h2>
+            </div>
+
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+              <div class="card-body body-1">
+                The annual membership is $180 and provides unlimited access to all classes and new classes as they launch.
+                All MasterClass memberships include access to our mobile and TV apps, high-definition videos, and downloadable class workbooks.
+              </div>
+            </div>
+          </div>
+
+          <div class="card slim my-3">
+            <div class="card-header card-1" id="headingSix">
+              <h2 class="mb-0">
+                <a href="#collapseSix" class="btn btn-block drpdwns-btn my-option" type="button" data-toggle="collapse" aria-expanded="false" aria-controls="collapseOne">
+                  <div class="d-inline text-left"><p class="m-0">How does the 30-day guarantee work?</p></div>
+                  <div class="d-inline text-right"><i class="fa fa-angle-down"></i></div>
+                </a>
+              </h2>
+            </div>
+
+            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+              <div class="card-body body-1">
+                Our goal is to make sure that you have the best learning experience possible. If MasterClass isn’t for you, then <a href="">email us</a>
+                within 30 days of the date you purchase your subscription, and we’ll offer a full refund.
+              </div>
+            </div>
+          </div>
+
+          <div class="card slim my-3">
+            <div class="card-header card-1" id="headingSeven">
+              <h2 class="mb-0">
+                <a href="#collapseSeven" class="btn btn-block drpdwns-btn my-option" type="button" data-toggle="collapse" aria-expanded="false" aria-controls="collapseOne">
+                  <div class="d-inline text-left"><p class="m-0">How do I cancel?</p></div>
+                  <div class="d-inline text-right"><i class="fa fa-angle-down"></i></div>
+                </a>
+              </h2>
+            </div>
+
+            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+              <div class="card-body body-1">
+                If you don’t want to continue, you can cancel your membership renewal through your account page. Follow the prompts to cancel on the Settings page, and your membership will not renew. Please note that there aren’t refunds for partially unused membership periods.
+                <br>
+                <br>
+                If you have more questions, please <a href="#">contact us</a>. We’re happy to help!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
+      <hr>
       <!-- FOOTER -->
-      <footer>
+      <footer class="mt-5 pt-5">
         <div class="row row-3">
           <div class="col">
             <ul>
@@ -534,11 +714,11 @@
           <div class="col">
             <ul>
               <li><h3>Social</h3></li>
-              <a href=""><li>Twitter</li></a>
-              <a href=""><li>Instagram</li></a>
-              <a href=""><li>Facebook</li></a>
-              <a href=""><li>Youtube</li></a>
-              <a href=""><li>LinkedIn</li></a>
+              <a href=""><li><i class="fab fa-twitter"></i>Twitter</li></a>
+              <a href=""><li><i class="fab fa-instagram"></i>Instagram</li></a>
+              <a href=""><li><i class="fab fa-facebook-square"></i>Facebook</li></a>
+              <a href=""><li><i class="fab fa-youtube"></i>Youtube</li></a>
+              <a href=""><li><i class="fab fa-linkedin"></i>LinkedIn</li></a>
             </ul>
           </div>
 
@@ -559,46 +739,41 @@
       <!-- Modal -->
       <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
+          <div class="modal-content modalContent">
             <button type="button" class="modal-close close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true" class="close-modal">&times;</span>
             </button>
 
-            <div class="modal-body content">
-              <h3>Your classes are Waiting</h3>
-              <div class="modal-p">
-                <p>Create an account to get started.</p>
-                <p>You're only one more step away.</p>
-              </div>
-              <button type="button" name="button" class="signin-google"><i class="fab fa-google"></i> SIGN IN WITH GOOGLE</button>
+            <div class="modal-body loginContent">
+              <h3>Log In</h3>
+              <button type="button" name="button" class="signin-google mb-3"><i class="fab fa-google"></i>LOG IN WITH GOOGLE</button>
               <br>
-              <button type="button" name="button"  class="signin-fb"><i class="fab fa-facebook-f"></i> SIGN IN WITH FACEBOOK</button>
+              <button type="button" name="button"  class="signin-fb mb-3"><i class="fab fa-facebook-f"></i> LOG IN WITH FACEBOOK</button>
+              <br>
+              <button type="button" name="button"  class="signin-apple mb-3"><i class="fab fa-apple"></i> LOG IN WITH APPLE</button>
               <div class="item-grid">
                 <hr>
                 <div class="divider">
-                  <p>or</p>
+                  <p>OR</p>
                 </div>
                 <hr>
               </div>
               <form class="email-login" action="index.html" method="post">
-                <div class="">
-                  <p>Your email address</p>
-                  <input class="email-input" type="email" name="email" placeholder="Your email address">
-                </div>
-                <br>
-                <div class="checkbox-container d-flex">
-                  <div class="">
-                    <input type="checkbox" name="option" value="update">
-                  </div>
-                  <div class="label-txt">
-                    <label for="update">Keep me up to date on class events and new releases.</label>
-                  </div>
-                </div>
-                <div class="email-login-end">
-                  <p>By sharing your email you agree to our<br><a href="#">Terms of service</a> and <a href="#">Privacy Policy</a> </p>
-                  <button type="button" name="button" class="btn-danger signin-email">CONTINUE WITH EMAIL</button>
-                </div>
+                  <p>Email</p>
+                  <input class="email-input" type="email" name="email">
+                  <br>
+                  <p>Password</p>
+                  <input class="email-input" type="password" name="password">
+                  <br>
+                  <button type="button" name="button" class="btn-danger signin-email mb-3">LOG IN</button>
               </form>
+              <div class="email-login-end">
+                <p>Need an account <a href="#">Sign Up</a></p>
+                <div class="forgot-pass">
+                <a href="#" class="d-block my-3">Forgot your Password?</a>
+                <p>By logging in, you agree to our<br><a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a> </p>
+              </div>
+              </div>
             </div>
           </div>
         </div>

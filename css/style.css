@@ -62,6 +62,7 @@ html,body{
   width: 100%;
   margin: 0;
   align-items: flex-end;
+  padding-top: 80px;
 }
 .left-grid h1{
   font-family: 'Bebas Neue';
@@ -204,6 +205,10 @@ hr{
   color: white;
   padding: 20px 0;
 }
+.modalContent{
+  width: 75%;
+  left: 60px;
+}
 button.modal-close{
   padding: 15px 20px;
   font-weight: normal;
@@ -213,7 +218,29 @@ button.modal-close{
   text-align: center;
   padding: 20px 70px;
   padding-top: 0;
-  font-style: 'Roboto'
+  font-family: 'Roboto'
+}
+.loginContent{
+  text-align: center;
+  padding: 20px 20px;
+  padding-top: 0;
+  font-family: 'Roboto';
+  width: 100%;
+}
+.loginContent button{
+  border-radius: 5px;
+  border: none;
+}
+.loginContent h3{
+  margin: 0;
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+.loginContent p,a{
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
 }
 .content button{
   border-radius: 5px;
@@ -243,6 +270,18 @@ button.modal-close{
 .fa-facebook-f{
   margin-right: 5px;
   font-size: 17px;
+}
+.fa-apple{
+  margin-right: 5px;
+  font-size: 17px;
+}
+.signin-apple{
+    padding: 15px;
+    background-color: #000000;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    width: 100%;
 }
 .signin-email{
   padding: 15px;
@@ -293,6 +332,13 @@ button.modal-close{
 .email-login-end{
   text-align: center;
 }
+.email-login-end a{
+  color: black;
+  text-decoration: underline;
+}
+.forgot-pass p, .forgot-pass a{
+  font-size: 12px;
+}
 .email-input{
   width: 100%;
   padding: 10px;
@@ -308,8 +354,101 @@ button.modal-close{
 .modal-close:enabled{
   border: none;
 }
-
-
+.slide-image{
+  width: 75%;
+}
+.carouselContainer{
+  padding: 70px 0;
+}
+.carouselCaption{
+  padding-bottom: 150px;
+  padding-left: 100px;
+}
+.carousel-text{
+  z-index: 0;
+}
+.detail-btn{
+  font-size: 12px;
+  width: 80px;
+  height: 40px;
+  background-color: #272c33;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+.carouselIndicators{
+  bottom: -10%;
+  z-index: 0;
+}
+.cont{
+  padding: 0;
+  padding-bottom: 15px;
+}
+.description{
+  background-color: #191c21;
+  color: white;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+}
+.description p{
+  font-size: 15px;
+  color: grey;
+  margin: 0;
+  padding: 0;
+}
+.profileImg{
+  width: 100px;
+}
+.most-pop{
+  background-color: #191c21;
+  border-radius: 5px;
+  color: white;
+}
+.drpdwns{
+  margin: 0 200px;
+  padding: 0 170px;
+}
+.drpdwns h3{
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  padding: 40px 0;
+  margin: 20px 0;
+}
+.drpdwns h6{
+  color: #d6d2d6;
+  font-weight:  bold;
+}
+.drpdwns-btn{
+  color: white;
+}
+.slim{
+  background-color: #191c21;
+  border: none;
+  border-radius: 0px;
+}
+.card-1{
+  background-color: #191c21;
+  color: white;
+}
+.card-1 p{
+  font-weight: bold;
+}
+.body-1{
+  background-color: #191c21;
+  color: #d6d2d6;
+}
+.card-1 p{
+  color: white;
+}
+.fa-angle-down{
+  color: white;
+  text-align: right;
+}
+.angle-down{
+  text-align: right;
+}
 footer ul{
   list-style: none;
   color: white;
@@ -335,12 +474,12 @@ footer h3{
   font-size: 16px;
   font-weight: 700;
 }
+.fa-twitter, .fa-instagram, .fa-facebook-square, .fa-youtube, .fa-linkedin{
+  margin-right: 20px;
+  color: #595959;
+  font-size: 20px;
+}
+
 footer img{
   padding: 10px 0;
-}
-.slide-image{
-  width: 75%;
-}
-.carouselContainer{
-  padding: 70px 0;
 }
