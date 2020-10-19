@@ -1,0 +1,322 @@
+/* ########## Default ########## */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+header, nav, main, section, article, aside, footer {
+    display: block;
+}
+
+/* ########## Navbar ########## */
+.top-nav{
+    background-color: black;
+    padding: 10px 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.top-nav a, span {
+    color: white;
+}
+.articles, .browse {
+    font-size: 14px;
+    font-weight: bold;
+}
+.login{
+font-size: 14px;
+font-weight: bold;
+}
+.my-dropdown{
+width: 350px;
+background-color:#191c21;
+}
+.my-btn{
+padding: 7px 15px;
+text-decoration: none;
+}
+.my-btn:hover{
+text-decoration: none;
+background-color: #303237;
+}
+.my-dropdown-link{
+color: #f3f3f5;
+text-decoration: none;
+margin-top: 8px;
+margin-bottom: 8px;
+}
+.fa-angle-right{
+color: #f3f3f5;
+}
+.my-form{
+background-color: #191c21;
+color: white;
+border: none;
+}
+.my-form:focus{
+background-color: #191c21;
+color: white;
+border: none;
+}
+.my-option{
+display: grid;
+grid-template-columns: auto auto;
+align-items: center;
+}
+.my-icon{
+text-align: right;
+}
+.nav-fixed {
+    display: none;
+    border: 1px solid red;
+    padding: 0 70px;
+    background: black;
+}
+.nav-fixed a {
+    color: white;
+    font-weight: bold;
+}
+.nav-fixed a.left span.diff {
+    color: #fcd549;
+}
+.nav-fixed a.left {
+    line-height: 1.2;
+}
+.nav-fixed a.right {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.nav-fixed a.right .gthan {
+    font-size: 25px;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: normal;
+}
+
+/* ########## Header ########## */
+.header-wrapper {
+    padding: 100px 0 2px;
+    background: black;
+}
+header {
+    padding: 0 100px;
+    margin: 0;
+    box-sizing: border-box;
+}
+header .heading {
+    width: 800px;
+    margin: 0 auto;
+    background: black;
+    color: white;
+}
+header .heading {
+   text-align: center;
+   padding: 0;
+}
+header .heading h1 {
+    font-size: 3em;
+    font-weight: bolder;
+}
+header .instructors {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 2em;
+    margin: 30px 0;
+}
+header .instructor {
+    position: relative;
+}
+header .instructor h4 {
+    position: absolute;
+    bottom: 0;
+}
+header .instructor .content {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 90%;
+    background-image: linear-gradient(to top, rgb(44, 33, 33), transparent, transparent);
+}
+header .instructor .view-all {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 70%;
+    background-image: linear-gradient(to top, rgb(66, 52, 52), transparent, transparent);
+}
+header .instructor .content p:not(.lesson) {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+header .instructor .content p.lesson {
+    margin-top: 0;
+    padding: 5px 8px 0;
+    line-height: 1.2em;
+    font-size: 0.95em;
+}
+header .button {
+    margin: 40px 0;
+}
+header .button .link{
+    background: #c83232;
+    color: white;
+    width: 150px;
+    display: block;
+    margin: auto;
+    padding: 15px 0;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+header .scroll {
+    margin-bottom: 20px;
+    color: white;
+}
+header .scroll p {
+    width: 200px;
+    margin: auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+header .scroll span {
+    font-size: 0.8em;
+}
+
+/* ########## Contents ########## */
+.content-wrapper {
+    margin-top: 20px;
+    color: black;
+    padding: 50px 70px;
+}
+.content-wrapper h5.only {
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+    font-weight: bold;   
+}
+.content-wrapper .lifestyle {
+    margin: 60px 0 80px; 
+}
+.content-wrapper .lifestyle .content {
+    padding: 70px 60px 0 0;
+}
+.content-wrapper .lifestyle .content a {
+    text-decoration: none;
+    color: black;
+}
+.content-wrapper .lifestyle .content h6 {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    color: grey;
+}
+.content-wrapper .lifestyle .content h1 {
+    font-weight: bold;
+    font-size: 45px;
+}
+.content-wrapper .lifestyle .content h1 a:hover {
+    text-decoration: underline;
+}
+.content-wrapper .lifestyle .content p {
+    color: rgb(87, 79, 79);
+    font-size: 1.2em;
+}
+.content-wrapper .categories h6 {
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+.content-wrapper .categories .cat-content {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 2em;
+}
+.content-wrapper .categories .cat-content a {
+    color: black;
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+.content-wrapper .categories .cat-content a:hover {
+    border: 2px solid rgb(0, 0, 0);
+}
+.cat-content .icon img {
+    display: block;
+    margin: 30px auto;
+    border-radius: 50%;
+}
+.cat-content .icon p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.content-wrapper .updates {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 2em;
+    margin-top: 100px;
+}
+.content-wrapper aside h6, .content-wrapper main h6 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+.content-wrapper .updates .latest {
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   grid-gap: 2em;
+   padding-bottom: 30px;
+}
+.content-wrapper .updates a {
+    text-decoration: none;
+    color: Black;
+}
+.content-wrapper .updates a h5:hover{
+    text-decoration: underline;
+}
+.content-wrapper .updates .latest h5 {
+    font-weight: bold;
+}
+.content-wrapper .updates .latest p {
+    margin-bottom: 5px;
+}
+.content-wrapper .updates .latest span {
+    font-size: 12px;
+    color: grey;
+}
+.updates hr {
+    margin-bottom: 30px;
+}
+.content-wrapper .updates .popularArticle {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 2em;
+}
+.content-wrapper .updates .popularArticle p {
+    font-weight: bold;
+    line-height: 1.2em;
+    margin-bottom: 5px;
+}
+.content-wrapper .updates .popularArticle p:hover {
+   text-decoration: underline;
+}
+.content-wrapper .updates .popularArticle span {
+    font-size: 12px;
+    color: grey;
+}
+aside hr {
+    margin-top: 30px;
+}

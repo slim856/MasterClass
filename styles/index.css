@@ -1,0 +1,36 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  font-size: 20px;
+}
+.col-sm-6 {
+  margin: 10% auto auto;
+}
+.page {
+  border: 1px solid lightgreen;
+  margin: auto;
+  text-align: center;
+  border-radius: 5px;
+  padding: 15px;
+}
+.page .title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.page a {
+  font-weight: bold;
+  font-weight: 2em;
+}
+a.button {
+  border: 1px solid rgb(32, 151, 32);
+  padding: 10px 15px;
+  border-radius: 5px;
+  background: rgb(32, 151, 32);
+  color: white;
+  text-decoration: none;
+}
+a.disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+
+}

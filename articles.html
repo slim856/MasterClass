@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MasterClass Articles</title>
+
+    <link rel="stylesheet" href="/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/styles/articles.css">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-full top-nav">
+          <a href="/index.html"><img src="../images/masterClassLogo.jpg" alt="MasterClass Logo" class="navbar-brand" id="navbar"></a>
+          <span>|</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link articles" href="#">ARTICLES <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle browse" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BROWSE</a>
+              <div class="my-dropdown-container">
+                <div class="dropdown-menu my-dropdown rounded rounded-sm rounded-lg" aria-labelledby="navbarDropdown">
+                  <form class="form-block my-2 my-lg-0">
+                    <input class="form-control mr-sm-2 w-100 my-form" type="search" placeholder="Search  instructors, classes, topics" aria-label="Search">
+                  </form>
+                  <div class="d-flex my-btn-container">
+                    <a class= "d-block my-dropdown my-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+                      <div class="my-option grid-container">
+                        <p class="my-dropdown-link d-inline">Music & Entertainment</p>
+                        <div class="my-icon"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="d-flex my-btn-container">
+                    <a class= "d-block my-dropdown my-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+                      <div class="my-option grid-container">
+                        <p class="my-dropdown-link d-inline">Culinary Arts</p>
+                        <div class="my-icon"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="d-flex my-btn-container">
+                    <a class= "d-block my-dropdown my-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+                      <div class="my-option grid-container">
+                        <p class="my-dropdown-link d-inline">Business, Politics & Society</p>
+                        <div class="my-icon"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="d-flex my-btn-container">
+                    <a class= "d-block my-dropdown my-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+                      <div class="my-option grid-container">
+                        <p class="my-dropdown-link d-inline">Film & TV</p>
+                        <div class="my-icon"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="d-flex my-btn-container">
+                    <a class= "d-block my-dropdown my-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+                      <div class="my-option grid-container">
+                        <p class="my-dropdown-link d-inline">Writing</p>
+                        <div class="my-icon"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="d-flex my-btn-container">
+                    <a class= "d-block my-dropdown my-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+                      <div class="my-option grid-container">
+                        <p class="my-dropdown-link d-inline">Sports & Games</p>
+                        <div class="my-icon"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="d-flex my-btn-container">
+                    <a class= "d-block my-dropdown my-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+                      <div class="my-option grid-container">
+                        <p class="my-dropdown-link d-inline">Design, Photography & Fashion</p>
+                        <div class="my-icon"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="d-flex my-btn-container">
+                    <a class= "d-block my-dropdown my-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+                      <div class="my-option grid-container">
+                        <p class="my-dropdown-link d-inline">Lifestyle</p>
+                        <div class="my-icon"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="d-flex my-btn-container">
+                    <a class= "d-block my-dropdown my-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+                      <div class="my-option grid-container">
+                        <p class="my-dropdown-link d-inline">Science & Technology</p>
+                        <div class="my-icon"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <ul class="navbar-nav navbar-right">
+            <li><a class="nav-link login" href="#">LOG IN</a></li>
+          </ul>
+        </div>
+    </nav>
+      
+    <div class="container-fluid header-wrapper">
+        <header>
+        <div class="jumbotron jumbotron-fluid heading">
+            <div>
+            <h1>Learn from the world's best</h1>
+            <p>Pursue your passion with online classes taught by award - winning chefs, writers, and performers. With 90+ hours of lessons, you’ll never stop learning.</p>
+            </div>
+        </div>
+
+        <div class="instructors">
+            <div class="instructor one">
+                <img src="../images/Aaron.jpg" class="img-fluid" alt="Aaron Franklin">
+                <a href="#"><div class="content">
+                    <p>Aaron<br>Franklin</p>
+                    <p class="lesson">Teaches Texas-Style BBQ</p>
+                </div></a>
+            </div>
+            <div class="instructor two">
+                <img src="../images/Neil.jpg" class="img-fluid" alt="Neil Gaiman">
+                <a href="#"><div class="content">
+                    <p>Neil<br>Gaiman</p>
+                    <p class="lesson">Teaches The Art of Storytelling</p>
+                </div></a>
+            </div>
+            <div class="instructor three">
+                <img src="../images/Annie.jpg" class="img-fluid" alt="Annie Leibovitz">
+                <a href="#"><div class="content">
+                    <p>Annie<br>Leibovitz</p>
+                    <p class="lesson">Teaches Photography</p>
+                </div></a>
+            </div>
+            <div class="instructor four">
+                <img src="../images/Daniel.jpg" class="img-fluid" alt="Daniel Negreanu">
+                <a href="#"><div class="content">
+                    <p>Daniel<br>Negreanu</p>
+                    <p class="lesson">Teaches Poker</p>
+                </div></a>
+            </div>
+            <div class="instructor five">
+                <img src="../images/PennTeller.jpg" class="img-fluid" alt="Penn and Teller">
+                <a href="#"><div class="content">
+                    <p>Penn and<br>Teller</p>
+                    <p class="lesson">Teaches The Art of Magic</p>
+                </div></a>
+            </div>
+            <div class="instructor six">
+                <img src="../images/view-all.jpg" class="img-fluid" alt="Advert">
+                <a href="#"><div class="view-all">
+                    <p>See All</p>
+                </div></a>
+            </div>
+        </div>
+        <div class="button">
+            <a href="#" class="btn btn-lg active link" role="button" aria-pressed="true">Get Started</a>
+        </div>
+        <div class="scroll">
+            <p><span>Scroll to continue reading</span>&nbsp;&nbsp;<strong>&or;</strong></p>
+        </div>
+        </header>
+    </div> <!-- End of header-wrapper -->
+
+    <nav class="navbar navbar-expand-lg sticky-top nav-fixed">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link left" href="#"><span class="diff">Is MasterClas right for me?</span><br>Take this quiz to find out</a> 
+            </li>
+        </ul>
+        <ul class="navbar-nav navbar-right">
+          <li><a class="nav-link right" href="#">Get started <span class="badge badge-danger gthan">&gt;</span></a></li>
+        </ul>    
+    </nav>
+
+    <div class="container-fluid content-wrapper">
+       <h5 class="only">MasterClass Articles</h5>
+       <div class="row lifestyle">
+            <div class="col-sm-7 content">
+                <a href="#"><h6 class="only">lifestyle</h6></a>
+                <h1><a href="#">Ron Finely: How to Grow Potatoes in a Sack (Like a Gangsta)</a></h1>
+                <a href="#"><p>Planting potatoes is the perfect DIY project for amateur gardeners working within the confines of a small space. There are many ways to grow potatoes, but if you don’t want to s...</p></a>
+                <h6 class="only">Apr 22, 2020</h6>
+            </div>
+            <div class="col-sm-5">
+                <img src="../images/lifestyle.jpg" class="img-fluid" alt="">
+            </div>
+       </div> <!-- End of lifestyle -->
+
+       <div class="categories">
+           <h6>categories</h6>
+           <div class="cat-content">
+               <a href="#"><div class=" icon culinary">
+                   <img src="../images/Culinary.jpg" width="100" height="100" alt="Culnirary Arts">
+                   <p>Culinary Arts</p>
+               </div></a>
+               <a href="#"><div class="icon photography">
+                   <img src="../images/photography.jpg" width="100" height="100" alt="Photography">
+                   <p>Design, Photography, and Fashion</p>
+               </div></a>
+               <a href="#"><div class="icon film">
+                   <img src="../images/film.jpg" width="100" height="100" alt="FIlm">
+                   <p>Film and TV</p>
+               </div></a>
+               <a href="#"><div class="icon music">
+                   <img src="../images/music.jpg" width="100" height="100" alt="Music">
+                   <p>Music and Entertainment</p>
+               </div></a>
+               <a href="#"><div class="icon politics">
+                    <img src="../images/politics.jpg" width="100" height="100" alt="Politics">
+                    <p>Bussiness, politics, and Society</p>
+                </div></a>
+                <a href="#"><div class="icon science">
+                    <img src="../images/science.jpg" width="100" height="100" alt="Science">
+                    <p>Science and Technology</p>
+                </div></a>
+                <a href="#"><div class="icon sport">
+                    <img src="../images/sport.jpg" width="100" height="100" alt="sport">
+                    <p>Sports and Games</p>
+                </div></a>
+                <a href="#"><div class="icon writing">
+                    <img src="../images/writing.jpg" width="100" height="100" alt="writing">
+                    <p>Writing</p>
+                </div></a>
+                <a href="#"><div class="icon lifestyleicon">
+                    <img src="../images/lifestyle (2).jpg" width="100" height="100" alt="lifestyle">
+                    <p>Lifestyle</p>
+                </div></a>
+           </div>
+       </div> <!-- End of categories -->
+
+       <div class="updates">
+            <main>
+                <h6>Latest</h6>
+                <a href="#"><div class="latest one">
+                    <div class="write-up">
+                        <h5>How to Use Nashvile Tunning on a Guitar</h5>
+                        <p>If you own a six-string guitar, you can replicate the chime and clarity associated with 12-string guitars by using Nashville tuning. Useful on both acoustic guitars and electric...</p>
+                        <span>Sep 17, 2020</span>
+                    </div>
+                    <div class="image">
+                        <img src="../images/guittar.jpeg" class="img-fluid" alt="Guitar">
+                    </div>
+                </div></a>
+
+                <hr>
+
+                <a href="#"><div class="latest two">
+                    <div class="write-up">
+                        <h5>How to Hold Drum Sticks: Traditional and Matched Grips</h5>
+                        <p>Before you dive into mastering your drumstick technique—from drum rudiments on the practice pad to jam sessions with other musicians—you'll want to shore up the type of grip you...</p>
+                        <span>Sep 17, 2020</span>
+                    </div>
+                    <div class="image">
+                        <img src="../images/drum stick.jpeg" class="img-fluid" alt="Drum Stick">
+                    </div>
+                </div></a>
+
+                <hr>
+
+                <a href="#"><div class="latest three">
+                    <div class="write-up">
+                        <h5>How to Make a Terrarium: 5 Plants to Grow in a Terrarium</h5>
+                        <p>Plants can be quite resilient, growing in a number of extreme conditions or inside surprising containers. You can grow a number of plants inside a terrarium, which provides idea...</p>
+                        <span>Sep 17, 2020</span>
+                    </div>
+                    <div class="image">
+                        <img src="../images/terrarium.jpeg" class="img-fluid" alt="Terrarium">
+                    </div>
+                </div></a>
+
+                <hr>
+
+                <a href="#"><div class="latest four">
+                    <div class="write-up">
+                        <h5>Guide to Drums: 23 Types of Percussion Instruments</h5>
+                        <p>The percussion family of instruments offers almost limitless possibilities for drummers.</p>
+                        <span>Sep 17, 2020</span>
+                    </div>
+                    <div class="image">
+                        <img src="../images/instruments.jpeg" class="img-fluid" alt="Instruments">
+                    </div>
+                </div></a>
+
+                <hr>
+
+                <a href="#"><div class="latest five">
+                    <div class="write-up">
+                        <h5>White Merlot Wine Guide: How Wineries Make White Merlot</h5>
+                        <p>Merlot may be one of the world's most famous red wines, but winemakers also make it in the style of a white wine.</p>
+                        <span>Sep 17, 2020</span>
+                    </div>
+                    <div class="image">
+                        <img src="../images/wine.jpeg" class="img-fluid" alt="Wine">
+                    </div>
+                </div></a>
+
+                <hr>
+
+                <a href="#"><div class="latest six">
+                    <div class="write-up">
+                        <h5>How to Remove Paint From Wood: 3 Ways to Strip Old Paint</h5>
+                        <p>If you're restoring a wood surface—whether it's a treasured piece of old furniture or a door that needs a fresh look—you’ll probably want to strip off the old paint and start cl...</p>
+                        <span>Sep 17, 2020</span>
+                    </div>
+                    <div class="image">
+                        <img src="../images/wood.jpeg" class="img-fluid" alt="Wood">
+                    </div>
+                </div></a>
+
+                <hr>
+
+                <a href="#"><div class="latest seven">
+                    <div class="write-up">
+                        <h5>Christmas Cactus Guide: How to Propagate Christmas Cactus</h5>
+                        <p>The striking flowers of the Christmas cactus bloom like clockwork around the holidays. Not only will the Christmas cactus add a cheerful touch to your indoor garden, but it’s on...</p>
+                        <span>Sep 17, 2020</span>
+                    </div>
+                    <div class="image">
+                        <img src="../images/christmas.jpeg" class="img-fluid" alt="Cactus">
+                    </div>
+                </div></a>
+
+                <hr>
+
+                <a href="#"><div class="latest eight">
+                    <div class="write-up">
+                        <h5>How to Fix Ripped Jeans: 6 Methods for Patching Denim</h5>
+                        <p>Holes or rips shouldn’t ruin otherwise wearable pairs of jeans. In fact, when patching up holes you can even breathe new life into old jeans by using fun embroidered patterns or...</p>
+                        <span>Sep 17, 2020</span>
+                    </div>
+                    <div class="image">
+                        <img src="../images/jeans.jpeg" class="img-fluid" alt="Jeans">
+                    </div>
+                </div></a>
+
+                <hr>
+
+                <a href="#"><div class="latest nine">
+                    <div class="write-up">
+                        <h5>The Classic Bamboo Cocktail Recipe</h5>
+                        <p>One of the most well-known sherry cocktails, the Bamboo lacks a base spirit and is an early model in cocktail history for combining vermouth and sherry.</p>
+                        <span>Sep 17, 2020</span>
+                    </div>
+                    <div class="image">
+                        <img src="../images/recipe.jpeg" class="img-fluid" alt="Recipe">
+                    </div>
+                </div></a>
+
+                <hr>
+
+           </main>
+           <aside>
+                <h6>Popular Articles</h6>
+                <a href="#"><div class="popularArticle one">
+                    <div class="write-up">
+                        <p>How to Write a Haiku in 4 Easy Steps</p>
+                        <span>Mar 6, 2019</span>
+                    </div>
+                    <div class="image">
+                        <img src="../images/haiku.jpeg" class="img-fluid" alt="Recipe">
+                    </div>
+                </div></a>
+
+                <hr>
+
+                <a href="#"><div class="popularArticle two">
+                    <div class="write-up">
+                        <p>How to Start a Publishing Company: 7-Step Beginner’s Guide</p>
+                        <span>Jul 7, 2020</span>
+                    </div>
+                    <div class="image">
+                        <img src="../images/publishing.jpeg" class="img-fluid" alt="Publishing">
+                    </div>
+                </div></a>
+
+                <hr>
+
+                <a href="#"><div class="popularArticle three">
+                    <div class="write-up">
+                        <p>Corduroy Fabric Guide: How to Wear Corduroy Clothing</p>
+                        <span>Sep 2, 2020</span>
+                    </div>
+                    <div class="image">
+                        <img src="../images/fabric.jpeg" class="img-fluid" alt="Fabric">
+                    </div>
+                </div></a>
+
+                <hr>
+
+                <a href="#"><div class="popularArticle four">
+                    <div class="write-up">
+                        <p>How to Hem Your Own Pants: 3 Easy Ways to Hem Pants</p>
+                        <span>May 12, 2020</span>
+                    </div>
+                    <div class="image">
+                        <img src="../images/pants.jpeg" class="img-fluid" alt="Pants">
+                    </div>
+                </div></a>
+
+
+           </aside>
+       </div>
+    </div>  <!-- End of content-wrapper -->
+
+
+
+
+
+
+
+
+
+    <script src="/styles/jquery.js"></script>
+    <script src="/styles/bootstrap.min.js"></script>
+</body>
+</html>
